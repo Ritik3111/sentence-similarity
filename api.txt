@@ -1,0 +1,20 @@
+request
+{
+  "query_sentence": "string",
+  "comparison_sentences": ["string1", "string2", ...]
+}
+
+response
+{
+  "results": [
+    {
+      "sentence": "string",
+      "similarity_score": float
+    },
+    {
+      "sentence": "string",
+      "similarity_score": float
+    },
+    ...
+  ]
+}
